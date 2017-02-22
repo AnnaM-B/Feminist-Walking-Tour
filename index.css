@@ -13,3 +13,13 @@
 	background-color: #b62f26;
 	border-color: #b62f26;
 }
+
+.row {
+  margin:40px 0 0 40px;
+  border-bottom: 0px;
+  height: 200px;
+  background-size: cover;
+  position: relative; 
+
+ }
+
