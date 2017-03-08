@@ -99,6 +99,12 @@ small {
   opacity: 0;
 
 }
+.show-description small {
+  opacity: 1;
+}
+.show-description p {
+  height: 150px;
+} 
 
 .East {
   background: url("bridge.jpg");
