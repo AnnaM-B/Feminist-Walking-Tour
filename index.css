@@ -81,6 +81,7 @@ body {
 .North p {
   color:rgba(255, 255, 255, 1);
   background:rgba(0, 0, 0, 1);
+  background:-webkit-linear-gradient;
   padding: 10px;
   text-align: justify;
   line-height: 28px;
