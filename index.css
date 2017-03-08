@@ -88,6 +88,13 @@ body {
   position: absolute;
   bottom: 0;
   margin: 0px;
+  height:30 px;
+
+}
+
+small {
+  opacity: 0;
+
 }
 
 .East {
