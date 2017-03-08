@@ -14,7 +14,7 @@ body {
 }
 /* title */
 .navbar-default .navbar-brand {
-    color: #777;
+    color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -22,7 +22,7 @@ body {
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -42,8 +42,8 @@ body {
 }
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
+    border-top-color: white;
+    border-bottom-color: white;
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
@@ -133,7 +133,7 @@ body {
 }
 
 #carousel-example-generic {
-	padding: 80px;
+	height: 380px;
 }
 
 .row {
@@ -238,7 +238,7 @@ small {
 }
 
 .social {
-	background-color: #f9bd9f;
+	background-color: #82d6be;
 	height: 140px;
 	width: 100%;
 	bottom: 0px;
