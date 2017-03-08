@@ -72,7 +72,6 @@ body {
 .North {
   background: url("bridge.jpg");
   margin:40px 0 0 0;
-  background:-webkit-linear-gradient;
   border-radius: 12px;
   height: 200px;
   background-size: cover;
@@ -81,8 +80,8 @@ body {
 
 .North p {
   color:rgba(255, 255, 255, 1);
-  background:rgba(0, 0, 0, 1);
-
+  background:rgba(0, 0, 0, .4);
+  background:-webkit-linear-gradient;
   padding: 10px;
   text-align: justify;
   line-height: 28px;
