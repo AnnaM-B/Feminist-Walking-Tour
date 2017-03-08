@@ -1,25 +1,173 @@
-#social-buttons button {
+
+body {
+  font-family: arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+
+#div2 {
+	position: fixed;
+	top: 0px;
+	background: #11A18A;
+	height: 75px;
+	width: 100%;
+	line-height:90px;
+}
+
+#div2 h1 {
+	float: left;
+	font-weight: 400px;
 	color: white;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 17px;
 }
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
+
+#div2 ul {
+	float: right;
+	position: relative;
+	margin-right: 100px;
+	line-height: 30px;
 }
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776;
+
+#div2 ul li {
+	list-style-type: none;
+	display: inline-block;
 }
-.btn-pintrest {
-	background-color: #b62f26;
-	border-color: #b62f26;
+
+#div2 ul li a {
+	padding: 22px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+#div2 ul li:hover {
+	background:#29B59F;
+	transition: all 0.40s;
+}
+
+#div2 ul li:hover ul {
+	display: block;
+}
+
+#div2 ul ul {
+	display: none;
+	width: 120px;
+	position: absolute;
+}
+
+.intro {
+	margin: 80px 0 0 0;
 }
 
 .row {
-  margin:40px 0 0 40px;
-  border-bottom: 0px;
+  padding: 20px 80px 40px 80px;
+  border-spacing: 5px 10px;
+ }
+
+.North {
+  background: url("bridge.jpg");
+  margin:40px 0 0 0;
+  border-radius: 12px;
   height: 200px;
   background-size: cover;
   position: relative; 
+}
 
- }
+.North p {
+  color:rgba(255, 255, 255, 1);
+  background:rgba(0, 0, 0, 1);
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+}
+
+.East {
+  background: url("bridge.jpg");
+  margin:40px 0 0 0;
+  border-radius: 12px;
+  height: 200px;
+  background-size: cover;
+  position: relative; 
+}
+
+.East p {
+  color:rgba(255, 255, 255, 1);
+  background:rgba(0, 0, 0, 1);
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+}
+.South {
+  background:url("bridge.jpg");
+  margin:40px 0 0 0;
+  border-radius: 12px;
+  height: 200px;
+  background-size: cover;
+  position: relative; 
+}
+
+.South p {
+  color:rgba(255, 255, 255, 1);
+  background:rgba(0, 0, 0, 1);
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+}
+
+.West {
+  background:url("bridge.jpg");
+  margin:40px 0 0 0;
+  border-radius: 12px;
+  height: 200px;
+  background-size: cover;
+  position: relative; 
+  }
+
+.West p {
+  color:rgba(255, 255, 255, 1);
+  background:rgba(0, 0, 0, 1);
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+}
+
+.social {
+	background-color: grey;
+	height: 140px;
+	width: 100%;
+	bottom: 0px;
+}
+
+#div3 {
+	bottom: 0px;
+	height: 70px;
+	width: 100%;
+	background: #11A18A;
+	padding: 8px;
+}
+
+#div3 h2 {
+	float: center;
+	font-weight: 400px;
+	color: white;
+	margin-top: 10px;
+	position: absolute;
+}
+
 
