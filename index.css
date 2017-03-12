@@ -244,9 +244,17 @@ small {
 	bottom: 0px;
 }
 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
 #div3 {
 	bottom: 0px;
-	height: 70px;
+	height: 55px;
 	width: 100%;
 	background: #1d1e1e;
 	padding: 8px;
