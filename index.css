@@ -15,6 +15,8 @@ body {
 /* title */
 .navbar-default .navbar-brand {
     color: white;
+    font-family: 'Sansita', sans-serif;
+    font-size: 22px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -23,6 +25,7 @@ body {
 /* link */
 .navbar-default .navbar-nav > li > a {
     color: white;
+    font-family: 'Sansita', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -382,7 +385,7 @@ label.error {
 }
 
 .space {
-  height: 25px;
+  height:25px;
 }
 #div3 h2 {
 	float: center;
