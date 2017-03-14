@@ -173,11 +173,11 @@ body {
 
 
 .East {
-  background: url("east lnd3.jpg");
+  background: url("east lnd4.jpg");
   margin:40px 0 0 0;
   border-radius: 12px;
   height: 200px;
-  background-size: relative;
+  background-size: cover;
   position: relative; 
 }
 
