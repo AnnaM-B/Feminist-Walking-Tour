@@ -165,7 +165,7 @@ body {
   position: relative; 
 }
 
-.North p {
+.North .show-description p {
   color:rgba(255, 255, 255, 1);
   background:rgba(0, 0, 0, .6);
   background:-webkit-linear-gradient;
