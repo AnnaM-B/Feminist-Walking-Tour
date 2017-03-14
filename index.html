@@ -100,6 +100,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="North">
+
               <p>North London<br />
                 <small>Great walks in North London</small></p>
             </div>
@@ -114,15 +115,16 @@
             <div class="South">
                 <p>South London<br />
                 <small> Great walks in South London, take a historical feminist tour south of the river. Learn the history of Olive Morris and...</small> 
-                <script>
-                $( "td" ).hover( function() { $( this ).East ("hover"); });
-              </script>
+              
               </div>
             </div>
         <div class="col-md-6">
             <div class="West">
             <p>West London<br />             
         </p>
+        <script>
+                $( "p" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the walk you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+              </script>
              
             </div>
         </div>
