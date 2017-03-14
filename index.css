@@ -145,6 +145,11 @@ body {
   border-spacing: 5px 10px;
  }
 
+ var hiddenBox = $( "small" );
+$( "small button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
+
  small {
   opacity: 0;
 
