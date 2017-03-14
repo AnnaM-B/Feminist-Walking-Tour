@@ -1,5 +1,6 @@
 
 
+
 body {
   font-family: 'Sansita', sans-serif;
   text-align: center;
@@ -134,6 +135,10 @@ body {
 
 .intro {
 	margin: 120px 0 0 0;
+}
+intro h2 {
+  color:#82d6be ;
+
 }
 
 #carousel-example-generic {
