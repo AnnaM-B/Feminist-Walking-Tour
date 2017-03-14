@@ -145,21 +145,12 @@ body {
   border-spacing: 5px 10px;
  }
 
- var hiddenBox = $( ".show-description small" );
+ var hiddenBox = $( ".North small" );
 $( ".show-description small button" ).on( "click", function( event ) {
   hiddenBox.show();
 });
 
- small {
-  opacity: 0;
-
-}
-.show-description small {
-  opacity: 1;
-}
-.show-description p {
-  height: 150px;
-} 
+ 
 
 .North {
   background: url("bridge.jpg");
