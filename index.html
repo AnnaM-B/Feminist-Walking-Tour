@@ -113,7 +113,9 @@
         <div class="col-md-6">
             <div class="South">
                 <p>South London<br />
-                <small>Great walks in South London, take a historical feminist tour south of the river. Learn the history of Olive Morris and.... </small></p>
+                <script>
+                $( "p" ).hover( function() { $( this ).append( $( "<span>  <small> Great walks in South London, take a historical feminist tour south of the river. Learn the history of Olive Morris and...</small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+              </script>
               </div>
             </div>
         <div class="col-md-6">
