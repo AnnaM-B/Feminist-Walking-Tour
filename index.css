@@ -143,20 +143,7 @@ body {
 .row {
   padding: 20px 80px 40px 80px;
   border-spacing: 5px 10px;
- }
-
-small {
-  opacity: 0;
-
-}
-.show-description small {
-  opacity: 1;
-}
-.show-description p {
-  height: 150px;
-} 
-
- 
+ } 
 
 .North {
   background: url("bridge.jpg");

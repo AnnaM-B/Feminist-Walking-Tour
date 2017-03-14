@@ -6,11 +6,6 @@
 
   <title>Feminist Walking Tours</title>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  $ (document).ready (function(){
-  $("button").click (function(){
-  $("small").toogle ();
-  });
-<button> Toogle between hiding and showing the small </button> 
   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel='stylesheet'>
   <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -105,7 +100,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="North">
-              <p>North London<br />
+              <p class= "fade">North London<br />
                 <small>Great walks in North London</small></p>
             </div>
           </div>
@@ -131,6 +126,20 @@
         </div>
   </div>
   </div>
+  <<script>
+$( "p" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( "p.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
 
 
 <div id="social">
