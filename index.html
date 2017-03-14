@@ -119,28 +119,29 @@
         <div class="col-md-6">
             <div class="West">
                 <p>West London<br />
-                <small>Great walks in West London</small></p>
+        <p>
+             <script>
+$( "p" ).hover(
+  function() {
+    $( this ).append( $( "<span> Great Walks in West London </span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( "p.fade" ).hover(function() {
+  $( this ).fadeIn( 500 );
+  $( this ).fadeIn( 100 );
+});
+
+</script>
             </div>
         </div>
         </div>
         </div>
   </div>
   </div>
-  <script>
-$( "small" ).hover(
-  function() {
-    $( this ).append( $( "<span> </span>" ) );
-  }, function() {
-    $( this ).find( "span:last" ).remove();
-  }
-);
  
-$( "small.fade" ).hover(function() {
-  $( this ).fadeIn( 500 );
-  $( this ).fadeIn( 100 );
-});
-
-</script>
 
 
 <div id="social">
