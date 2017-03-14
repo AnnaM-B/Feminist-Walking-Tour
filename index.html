@@ -118,7 +118,7 @@
             </div>
         <div class="col-md-6">
             <div class="West">
-                <p class= "fade">West London<br />
+                <p>West London<br />
                 <small>Great walks in West London</small></p>
             </div>
         </div>
@@ -127,7 +127,7 @@
   </div>
   </div>
   <script>
-$( "p" ).hover(
+$( "small" ).hover(
   function() {
     $( this ).append( $( "<span> </span>" ) );
   }, function() {
@@ -135,9 +135,9 @@ $( "p" ).hover(
   }
 );
  
-$( "p.fade" ).hover(function() {
-  $( this ).fadeOut( 100 );
+$( "small.fade" ).hover(function() {
   $( this ).fadeIn( 500 );
+  $( this ).fadeIn( 100 );
 });
 
 </script>
