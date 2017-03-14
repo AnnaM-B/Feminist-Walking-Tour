@@ -106,8 +106,8 @@
           </div>
         <div class="col-md-6">
             <div class="East">
-            <h2>East London<br /></h2>
-                <p>Great walks in East London</p>
+            <p>East London<br />
+                <small>Great walks in East London</small>
             </div>
         </div>
         <div class="col-md-6">
@@ -119,7 +119,7 @@
         <div class="col-md-6">
             <div class="West">
                 <p>West London<br />
-                <small>Great walks in West London</small></p>
+                <small class= "fade">Great walks in West London</small></p>
             </div>
         </div>
         </div>
@@ -127,11 +127,11 @@
   </div>
   </div>
   <script>
-$( "h2" ).hover(
+$( "p" ).hover(
   function() {
-    $( this ).append( $( "<span> ***</span>" ) );
+    $( this ).append( $( "<span></span>" ) );
   }, function() {
-    $( this ).find( "span:last" ).remove();
+    $( this ).find( "sapn:last" ).remove();
   }
 );
  
