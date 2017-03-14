@@ -145,8 +145,8 @@ body {
   border-spacing: 5px 10px;
  }
 
- var hiddenBox = $( "small" );
-$( "small button" ).on( "click", function( event ) {
+ var hiddenBox = $( ".show-description small" );
+$( ".show-description small button" ).on( "click", function( event ) {
   hiddenBox.show();
 });
 
