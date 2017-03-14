@@ -145,6 +145,17 @@ body {
   border-spacing: 5px 10px;
  }
 
+ small {
+  opacity: 0;
+
+}
+.show-description small {
+  opacity: 1;
+}
+.show-description p {
+  height: 150px;
+} 
+
 .North {
   background: url("bridge.jpg");
   margin:40px 0 0 0;
@@ -168,16 +179,7 @@ body {
 
 }
 
-small {
-  opacity: 0;
 
-}
-.show-description small {
-  opacity: 1;
-}
-.show-description p {
-  height: 150px;
-} 
 
 .East {
   background: url("bridge.jpg");
@@ -198,6 +200,7 @@ small {
   position: absolute;
   bottom: 0;
   margin: 0px;
+  height: 30px;
 }
 .South {
   background:url("bridge.jpg");
@@ -218,6 +221,7 @@ small {
   position: absolute;
   bottom: 0;
   margin: 0px;
+  height: 30px;
 }
 
 .West {
@@ -238,7 +242,8 @@ small {
   line-height: 28px;
   position: absolute;
   bottom: 0;
-  margin: 0px;
+  margin: 0px
+  height: 30px;
 }
 
 .social {
