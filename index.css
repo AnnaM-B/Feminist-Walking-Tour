@@ -173,7 +173,8 @@ body {
 
 
 .East {
-  background: url("bridge.jpg");
+  background: url("east lnd.jpg");
+  background-image: relative; 
   margin:40px 0 0 0;
   border-radius: 12px;
   height: 200px;
