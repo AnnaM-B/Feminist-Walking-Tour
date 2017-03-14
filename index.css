@@ -165,7 +165,7 @@ body {
   position: relative; 
 }
 
-.North .show-description p {
+.North p {
   color:rgba(255, 255, 255, 1);
   background:rgba(0, 0, 0, .6);
   background:-webkit-linear-gradient;
@@ -175,7 +175,6 @@ body {
   position: absolute;
   bottom: 0;
   margin: 0px;
-  height:30 px;
 
 }
 
@@ -200,7 +199,6 @@ body {
   position: absolute;
   bottom: 0;
   margin: 0px;
-  height: 30px;
 }
 .South {
   background:url("bridge.jpg");
@@ -221,7 +219,6 @@ body {
   position: absolute;
   bottom: 0;
   margin: 0px;
-  height: 30px;
 }
 
 .West {
@@ -243,7 +240,6 @@ body {
   position: absolute;
   bottom: 0;
   margin: 0px
-  height: 30px;
 }
 
 .social {
