@@ -1,4 +1,5 @@
 
+<script src="/assets/jquery.js"></script>
 body {
   font-family: 'Sansita', sans-serif;
   text-align: center;
@@ -394,5 +395,7 @@ label.error {
 	margin-top: 10px;
 	position: absolute;
 }
-
+ $ ('div').on('click', function () {
+    $(this).toggleClass('show-description');
+    });
 
