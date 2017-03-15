@@ -116,7 +116,10 @@
           </div>
         <div class="col-md-6">
             <div class="East">
-            <p>East London<br />
+            <p id= "eastp">East London<br />
+             <script>
+                $( "#eastp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the east london walk you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+              </script>
                 
             </div>
         </div>
@@ -124,7 +127,7 @@
             <div class="South">
                 <p id="southp">South London<br />
                 <script>
-                $( "#southp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the south london walk you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+                $( "#southp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the south london walks you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
               </script>
                 
               
@@ -135,7 +138,7 @@
             <p id="westp">West London<br />             
         </p>
         <script>
-                $( "#westp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the walk you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+                $( "#westp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the West London walks you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
               </script>
               </div>
              
