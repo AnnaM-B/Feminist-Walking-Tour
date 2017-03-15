@@ -157,6 +157,8 @@ body {
   width: 100%;
   position: relative; 
   max-width: 1298px; /* YOUR BG MAX SIZE */
+  max-height:2000px;/* YOUR BG MAX SIZE */
+
 }
  
 
