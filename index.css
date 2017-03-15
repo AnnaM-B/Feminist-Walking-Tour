@@ -154,6 +154,7 @@ body {
   border-radius: 12px;
   height: 200px;
   background-size: 100%;
+  width: 100%;
   position: relative; 
   max-width: 1920px; /* YOUR BG MAX SIZE */
 }
