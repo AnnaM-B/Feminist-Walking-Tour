@@ -185,6 +185,7 @@ body {
   background-size: 100%;
   width: 100%;
   position: relative; 
+  max-width: 1298px; /* YOUR BG MAX SIZE *
 }
 
 .East p {
