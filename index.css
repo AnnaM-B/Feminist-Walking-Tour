@@ -156,7 +156,7 @@ body {
   background-size: 100%;
   width: 100%;
   position: relative; 
-  max-width: 1920px; /* YOUR BG MAX SIZE */
+  max-width: 1900px; /* YOUR BG MAX SIZE */
 }
  
 
@@ -176,11 +176,12 @@ body {
 
 
 .East {
-  background: url("east lnd3.jpg");
+  background: url("east lnd3.jpg") no-repeat;
   margin:40px 0 0 0;
   border-radius: 12px;
   height: 200px;
-  background-size: cover;
+  background-size: 100%;
+  width: 100%;
   position: relative; 
 }
 
