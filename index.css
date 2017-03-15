@@ -283,9 +283,9 @@ h4 {
   color: white;
 }
 h5 {
-  padding: 18px 18px 18px 18px;
+  padding: 18px 0 18px 0px;
   text-align: center;
-  width: 60%;
+  width: 80%;
   color: white;
 
  }
