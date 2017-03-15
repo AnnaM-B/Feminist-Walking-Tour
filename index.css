@@ -227,6 +227,9 @@ display: inline;
   border-radius:6px;
   background-color:#82d6be;
 }
+h3 {
+  font-size: 1.6em;
+}
 
 h2 {
   text-align:center;
