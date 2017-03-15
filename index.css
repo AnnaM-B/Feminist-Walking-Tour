@@ -149,13 +149,15 @@ body {
  } 
  
 .North {
-  background: url("north lnd1.jpg");
+  background: url("north lnd1.jpg") no-repeat;
   margin:40px 0 0 0;
   border-radius: 12px;
   height: 200px;
   background-size: cover;
   position: relative; 
+  max-width: 1920px; /* YOUR BG MAX SIZE */
 }
+ 
 
 .North p {
   color:rgba(255, 255, 255, 1);
