@@ -147,12 +147,7 @@ body {
   padding: 20px 80px 40px 80px;
   border-spacing: 5px 10px;
  } 
- .herstory {
-  padding: 10px;
-  text-align: center;
-  width: 70%;
- }
-
+ 
 .North {
   background: url("north lnd1.jpg");
   margin:40px 0 0 0;
@@ -287,6 +282,14 @@ h4 {
   font-size: 1.9em;
   color: white;
 }
+h5 {
+  padding: 18px 18px 18px 18px;
+  text-align: center;
+  width: 60%;
+  color: white;
+
+ }
+
 
 input {
   margin-bottom:10px;
