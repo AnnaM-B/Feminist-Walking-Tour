@@ -122,7 +122,10 @@
         </div>
         <div class="col-md-6">
             <div class="South">
-                <p>South London<br />
+                <p id="southp">South London<br />
+                <script>
+                $( "#souhtp" ).hover( function() { $( this ).append( $( "<span>  <small> Description of the south london walk you can do; including the start and finish point; key points of people, houses, parks; the duration; options of alterntive routues </small> </span>" ) );  }, function() { $( this ).find( "span:last" ).remove();  });
+              </script>
                 
               
               </div>
